@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "Two-color background generator with HTML, CSS and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "build": "browserify js/script.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "background-generator"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Laura White",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "6.14.6",
+    "lodash": "^4.17.20"
+  }
+}
